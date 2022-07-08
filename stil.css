@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.dis{
+    width: 100%;
+    height: 100vh;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orta{
+    width: 40%;
+    height: 50%;
+    /*border: 1px solid red;*/
+    position: relative;
+    transition: 0.4s;
+}
+.orta img{
+    width: 100%;
+    height: 100%;
+}
+.orta p{
+    position: absolute;
+    bottom: 0px;
+    font-size: 24px;
+    color: transparent;
+    text-align: center;
+    visibility: hidden;
+}
+.orta:hover{
+    width: 60%;
+    height: 70%;
+}
+.orta:hover p{
+    visibility: visible;
+    color: white;
+    background-color: rgb(82, 86, 74,0.5);
+    transition: 3s;
+}
